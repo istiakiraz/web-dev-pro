@@ -25,6 +25,22 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+.btn-pri-2{
+    background-color: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 19px 23px 18px 58px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+    cursor: pointer;
+
+}
+.div-btn{
+    display: flex; 
+    gap: 20px;
 }
 
 /* Nav styles */
@@ -53,3 +69,53 @@ nav li a {
     color: #474747;
     font-size: 20px;
 }
+
+/* header bg */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png) ;
+    background-position: 50px top, bottom right;
+    background-repeat: no-repeat;
+}
+
+/* bannar style */
+
+.bannar-sub-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.bannar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 38px 0 230px;
+}
+.bannar-conti{
+    max-width: 580px;
+    margin-bottom: auto;
+    margin-top: 100px;
+}
+
+.bannar-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;  
+}
+.bannr-despi{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.bannar-pic{
+    width: 580px;
+    margin-left: auto;
+    margin-right: 38px;
+    
+}
+
+.bannar-pic img{
+    max-width: 100%; 
+    height: auto;
+}
+
